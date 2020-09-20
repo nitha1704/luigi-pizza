@@ -1,0 +1,57 @@
+import React from 'react';
+
+class Footer extends React.Component {
+
+    render() {
+        return (
+            <div className="footer">
+                <div className="container">
+                    <div className="footer-item1">
+                        <img src="/resources/images/logo-white.png" />
+                    </div>
+                    <div className="footer-item2">
+                        <p>Address:</p>
+                        <p>481 Creekside Lane Avila Beach, CA 93424</p>
+                    </div>
+                    <div className="footer-item3">
+                        <p>Phone:</p>
+                        <p>+53 345 7953 32453</p>
+                    </div>
+                    <div className="footer-item4">
+                        <p>Email:</p>
+                        <p>yourmail@gmail.com</p>
+                    </div>
+                    <div className="footer-item5">
+                        <ul className="ul-cleargap">
+                            <li>
+                                <a href="javascript:;"><i class="fab fa-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="fab fa-dribbble"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                               <a href="javascript:;"><i class="fab fa-vimeo"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="footer-item6">
+                        <p>Copyright ©2020 All rights reserved | This template is made with 
+                        <i class="fas fa-heart"></i>
+                        by Colorlib</p>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+
+export default Footer;
