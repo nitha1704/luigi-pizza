@@ -295,7 +295,7 @@ class FrontPage extends React.Component {
                     <div className="zigzag-background"></div>
                     <div className="section1-content">
                         <div className="section1-content-item1">BEST IN TOWN</div>
-                        <div className="section1-content-item2">Pizza & Pasta</div>
+                        <div className="section1-content-item2">Pizza & PastaAA</div>
                         <div className="section1-content-item3">
                             <a href="javascript:;" className="pizza-button">
                                 <span>SEE TODAYS MENU</span>
