@@ -1,5 +1,5 @@
 import React from 'react';
-import BestSellerItem from './best_seller_item';
+import BestSellerItem from '../best_seller_item';
 
 
 class BestSellerList extends React.Component {

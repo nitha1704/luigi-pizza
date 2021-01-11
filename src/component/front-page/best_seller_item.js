@@ -8,7 +8,7 @@ class BestSellerItem extends React.Component {
         const { product, addOrder, deleteOrder } = this.props;
 
         return (
-            <div className="col-xs-12 col-sm-6 col-md-3 section3-item2-col">
+            <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 section3-item2-col">
                 <div className="section3-item2-product-img">
                     <img src={product.thumbnail} />
                     {
