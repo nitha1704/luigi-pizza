@@ -180,7 +180,7 @@ class Header extends React.Component {
             </ul>
           </div>
           <div className="header-item3">
-            <a href="javascript:;">ORDER: +34 685 778 8892</a>
+            <a href="javascript:;">ORDER: (229) 869-8520</a>
           </div>
 
           {/* Mobile Menu */}

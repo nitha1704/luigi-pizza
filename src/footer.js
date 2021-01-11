@@ -11,11 +11,11 @@ class Footer extends React.Component {
               </div>
               <div className="footer-item2">
                 <p>Address:</p>
-                <p>481 Creekside Lane Avila Beach, CA 93424</p>
+                <p>931 Shelbyville, TN</p>
               </div>
               <div className="footer-item3">
                 <p>Phone:</p>
-                <p>+53 345 7953 32453</p>
+                <p>(229) 869-8520</p>
               </div>
               <div className="footer-item4">
                 <p>Email:</p>
