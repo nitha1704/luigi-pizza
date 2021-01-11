@@ -307,7 +307,7 @@ a:link {
       rgba(0, 0, 0, 0.5) 100%,
       rgba(255, 255, 255, 0) 100%
     ),
-    url("/resources/images/slider_1_1920_1200.jpg");
+    url("../background/slider_1_1920_1200.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -750,7 +750,7 @@ a:link {
       rgba(0, 0, 0, 0.35) 100%,
       rgba(255, 255, 255, 0) 100%
     ),
-    url(/resources/images/slider_2_1920_600.jpg);
+    url('../background/slider_2_1920_600.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1086,7 +1086,7 @@ a:link {
       rgba(0, 0, 0, 0.35) 100%,
       rgba(255, 255, 255, 0) 100%
     ),
-    url(/resources/images/add-ons-background.jpg);
+    url('../background/slider_3_1920_600.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1321,7 +1321,7 @@ a:link {
       rgba(0, 0, 0, 0.35) 100%,
       rgba(255, 255, 255, 0) 100%
     ),
-    url(/resources/images/slider_5_1920_600.jpg);
+    url('../background/slider_5_1920_600.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1615,7 +1615,7 @@ a:link {
       rgba(0, 0, 0, 0.35) 100%,
       rgba(255, 255, 255, 0) 100%
     ),
-    url(/resources/images/slider_4_1920_600.jpg);
+    url('../background/slider_4_1920_600.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
