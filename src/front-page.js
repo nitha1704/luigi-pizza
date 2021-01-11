@@ -16,9 +16,6 @@ import "./css/responsive.css";
 // Font Awesome
 import FontAwesome from '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
-// Javascript
-import mainJS from './main';
-
 // Data
 import bestSellerData from './data/bestSellerData';
 import menuData from './data/menuData';
@@ -36,66 +33,12 @@ class FrontPage extends React.Component {
 
     
     componentDidMount() {
-
         this.setState({
           bestSellerItem: bestSellerData,
           ourMenu: menuData,
         });
 
-        // JQuery
-        // $('.section4-item2 ul li').click(function () {
-        //     //Get Data Filter
-        //     const data_filter = $(this).attr('tab-filter');
-
-        //     // Tab Filter
-        //     $(this).siblings('li').removeClass('active');
-        //     $(this).addClass('active');
-
-        //     // All Filter
-        //     if (data_filter == 'All') {
-        //         $(this).parents('.section4').find('div.our-menu-item').addClass('activeAll');
-        //     } else {
-        //         //Data Filter
-        //         $(this).parents('.section4').find('div.our-menu-item').removeClass('activeAll');
-        //         $(this).parents('.section4').find('div.our-menu-item').removeClass('active');         
-        //         $(this).parents('.section4').find('div.our-menu-item[data-filter=' + data_filter + ']').addClass('active');
-        //     }
-        // })
-
-
-        //////// Javascript 1 ///////
-
-        // const tabFilter = document.querySelector('.section4-item2 ul').children; 
-        // const itemFilter = document.querySelector('.section4-item3 .wrap-our-menu').children;
-        // let i
-        // let o
-        // let p
-
-        // for(i = 0; i < tabFilter.length; i++) {
-        //     tabFilter[i].addEventListener('click',function(){
-        //         let tabFilterData = this.getAttribute('tab-filter');
-
-        //         for(o = 0; o < tabFilter.length; o++) {
-        //             tabFilter[o].classList.remove('active');
-        //         }        
-        //         this.classList.add('active');
-
-        //         for(p = 0; p < itemFilter.length; p++) {
-        //             itemFilter[p].classList.remove('activeAll');
-        //             itemFilter[p].classList.remove('active');
-
-        //             if(itemFilter[p].getAttribute('data-filter') == tabFilterData) {
-        //                 itemFilter[p].classList.add('active');
-        //             } else if(tabFilterData == 'All') {
-        //                 itemFilter[p].classList.add('active'); 
-        //             }
-        //         }
-
-        //     });
-        // }
-
-
-        //////// Javascript 2 ///////
+        //////// Javascript ///////
         let q
         const tabFilter = document.querySelectorAll('.section4-item2 ul li');
         const itemFilter = document.querySelector(

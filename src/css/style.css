@@ -468,7 +468,7 @@ a:link {
   z-index: 1;
 }
 .section3-item1 {
-      margin-bottom: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 .section3-item1-1 {
@@ -817,7 +817,7 @@ a:link {
   color: #fff;
   border: 1px solid transparent;
   border-bottom: none;
-  border-radius: 3px;
+  border-radius: 3px 3px 0 0;
   letter-spacing: 1px;
   font-weight: 500;
   position: relative;
@@ -853,6 +853,7 @@ a:link {
   border: 1px solid green;
   border-bottom: none;
   border-radius: 0px;
+  background:#fff;
 }
 .about-us-section2-item2-1:hover a:before {
   height: 100%;
@@ -865,7 +866,7 @@ a:link {
   padding: 15px 49px;
   border: 1px solid #118522;
   border-bottom: none;
-  border-radius: 3px;
+  border-radius: 3px 3px 0 0;
   background: #118522;
   color: #fff;
   letter-spacing: 1px;
@@ -901,6 +902,8 @@ a:link {
 .about-us-section2-item2-2:hover a {
   border: 1px solid #118522;
   border-bottom: none;
+  border-radius: 0px;
+  background:#fff;
   color: #000;
 }
 .about-us-section2-item2-2:hover a:before {
@@ -935,8 +938,8 @@ a:link {
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 30px;
-      height: 40px;
-    overflow-y: auto;
+  height: 40px;
+  overflow-y: auto;
 }
 .about-us-section3-item1 img {
   width: 40px;
@@ -1016,7 +1019,7 @@ a:link {
   -moz-osx-font-smoothing: grayscale;
 }
 .slick-dots {
-      bottom: -75px;
+  bottom: -75px;
 }
 
 .about-us-section3-item2 .slick-dots li.slick-active button:before {
@@ -1760,4 +1763,117 @@ a:link {
 }
 .footer-item6 i {
   margin: 0px 10px;
+}
+
+/****************************/
+/********* 404 File not Found Page********/
+/***************************/
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 767px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+  padding: 15px;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 220px;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: inherit;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 186px;
+  font-weight: 200;
+  margin: 0px;
+  background: linear-gradient(130deg, #ffa34f, #ff6f68);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.notfound h2 {
+  font-family: inherit;
+  font-size: 33px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  letter-spacing: 3px;
+}
+
+.notfound p {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.notfound a {
+  font-family: inherit;
+  font-size: 25px;
+  color: #ff6f68;
+  font-weight: 200;
+  text-decoration: none;
+  border-bottom: 1px dashed #ff6f68;
+  border-radius: 2px;
+  letter-spacing: 1px;
+}
+
+.notfound-social > a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  font-size: 14px;
+  color: #ff6f68;
+  border: 1px solid #efefef;
+  border-radius: 50%;
+  margin: 3px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+.notfound-social > a:hover {
+  color: #fff;
+  background-color: #ff6f68;
+  border-color: #ff6f68;
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 {
+    position: relative;
+    height: 168px;
+  }
+
+  .notfound .notfound-404 h1 {
+    font-size: 142px;
+  }
+
+  .notfound h2 {
+    font-size: 22px;
+  }
 }

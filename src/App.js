@@ -1,4 +1,5 @@
 import React from 'react';
+
 import FrontPage from './front-page';
 import AboutUs from './pages/about-us';
 import AddOnsMenu from './pages/add-ons-menu';

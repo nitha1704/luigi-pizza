@@ -16,7 +16,6 @@ class OurBlog extends React.Component {
   }
 
   render() {
-    console.log(this.state.blog);
     const handleSubmit1 = (e) => {
       e.preventDefault();
     };
