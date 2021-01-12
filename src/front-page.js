@@ -266,7 +266,7 @@ class FrontPage extends React.Component {
 
                 <div className="section4-item4">
                   <a
-                    href="./component/about-us/about-us"
+                    href="javascript:;"
                     className="pizza-button"
                   >
                     <span>SEE TODAYS MENU</span>

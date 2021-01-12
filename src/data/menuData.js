@@ -24,7 +24,7 @@ export default [
       "Maecenas fermentum tortor id fringilla molestie. In hac habitasse platea dictumst.",
     price: "12.00",
     category: "Pizza",
-    thumbnail: "/resources/images/our-menu/Pizza/Pizza-Prosciuto.jpeg",
+    thumbnail: "/resources/images/our-menu/Pizza/Pizza-Prosciuto.jpg",
   },
   {
     id: 4,
