@@ -153,7 +153,7 @@ class FrontPage extends React.Component {
               <div className="section1-content">
                 <div className="section1-content-item1">BEST IN TOWN</div>
                 <div className="section1-content-item2 title">
-                  Pizza & Pasta555
+                  Pizza & Pasta
                 </div>
                 <div className="section1-content-item3">
                   <a href="javascript:;" className="pizza-button">
